@@ -1,0 +1,24 @@
+{
+  "name": "wwdc_subtitle",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@types/mkdirp": "^0.5.2",
+    "@types/puppeteer": "^1.5.0",
+    "@types/request-promise": "^4.1.41",
+    "mkdirp": "^0.5.1",
+    "puppeteer": "^1.5.0",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  },
+  "scripts": {
+    "start": "ts-node main.ts"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malt03/wwdc_subtitle/issues"
+  },
+  "homepage": "https://github.com/malt03/wwdc_subtitle#readme"
+}

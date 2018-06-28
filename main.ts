@@ -5,7 +5,7 @@ import * as mkdirp from 'mkdirp';
 
 const url = process.argv[process.argv.length - 1];
 if (!url.match(/^https:\/\/developer\.apple\.com\/videos\/play\//)) {
-  console.log('% ts-node main.ts https://developer.apple.com/videos/play/wwdc2017/703/');
+  console.log('ERROR: please call as follows.\n% npm start https://developer.apple.com/videos/play/wwdc2017/703/\n');
   process.exit(1);
 }
 
